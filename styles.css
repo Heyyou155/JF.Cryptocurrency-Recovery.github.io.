@@ -57,4 +57,37 @@ nav ul li {
         opacity: 1;
         transform: scale(1);
     }
-  }
+}
+
+
+.join-section {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFL3jVNEE_dHt42tBxH4XLoBFt6ohlHJ_gQ&usqp=CAU');
+    background-size: cover;
+    padding: 60px;
+    color: white;
+    text-align: center;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.form-container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.form-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
