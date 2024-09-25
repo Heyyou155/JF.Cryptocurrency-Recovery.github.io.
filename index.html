@@ -1,81 +1,69 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Asset Recovery Services</title>
-    <meta name="description" content="We specialize in cryptocurrency recovery services to ensure your digital assets are always in your possession.">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-    <nav>
-        <div class="nav-bar">
-            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- This is the 4-dash menu icon -->
-            <ul id="nav-links" class="hidden">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#join">Join</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+                <img src="https://rewallet.de/img/bitcoin.svg" alt="Bitcoin Icon" style="width: 30px; height: 30px;"> <!-- Added Bitcoin image -->
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="join.html">Join</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="situation">
+            <h2>Let Us Know Your Situation</h2>
+            <p>Describe your situation and what you need help with. We can usually estimate quickly if we can help you.</p>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How Does It Work</h2>
+            <ol>
+                <li><strong>Fill Out Our Questionnaire:</strong> Click on "Start Now" to access our questionnaire for the first important information.</li>
+                <li><strong>Feedback:</strong> Based on your information, we'll check if we can help you. Expect feedback within 24 hours.</li>
+                <li><strong>Request 1:</strong> If we can help, we send you our contract for your legal protection. Provide the necessary information.</li>
+                <li><strong>Get to Work:</strong> Once we have all the required information, we'll start immediately, typically restoring your wallet within 48-72 hours.</li>
+            </ol>
+        </section>
+
+        <section id="promise">
+            <h2>Our Promise to You</h2>
+            <ul>
+                <li><strong>Speed:</strong> Feedback within 24 hours, with wallet restoration in a few days.</li>
+                <li><strong>Success-Based Commission:</strong> No payment until you regain access to your wallet, with a 20% commission on recovery.</li>
+                <li><strong>Service:</strong> Always available to assist with your wallet issues.</li>
             </ul>
-        </div>
-    </nav>
-</header>
+            <button onclick="window.location.href='start_now.html';">Start Now</button>
+        </section>
 
-<script>
-function toggleMenu() {
-    var links = document.getElementById("nav-links");
-    links.classList.toggle("hidden");
-}
-</script>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>This trustworthy company was able to recover an amount of electronic currency that I had already thought lost. The communication with ReWallet experts was open and professional.</p>
+                <footer>- Anton E.</footer>
+            </blockquote>
+            <blockquote>
+                <p>By a stupid mistake, I wrote down only 11 of 12 words of my seed phrase. Desperately I tried it myself but gave up after a short time. ReWallet restored my access.</p>
+                <footer>- Kai Olaf W.</footer>
+            </blockquote>
+        </section>
+    </main>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to Our Site</h1>
-        <p>We offer high-quality recovery services and much more.</p>
-    </section>
-
-    <!-- Join Section -->
-    <section id="join">
-        <h2>Join Us</h2>
-        <p>Create an account or log in to access exclusive content.</p>
-        <!-- Registration and Login Form -->
-        <form action="/signup" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Create Account</button>
-        </form>
-        <p>Already have an account? <a href="/login">Login here</a></p>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Making Sure Your Crypto is Always Yours. At Crypto Asset Recovery, we understand how crucial it is to keep your cryptocurrency safe and secure. That's why we're dedicated to recovering the passwords to your forgotten wallets, ensuring that your digital assets remain in your possession.</p>
-        <p>Our team of experts uses cutting-edge, air-gapped servers to crack the code and give you back control of your assets.</p>
-        <p>Together, we’re leading the way in the crypto asset recovery space and helping drive large-scale adoption of cryptocurrency globally.</p>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We provide:</p>
-        <ul>
-            <li>Wallet Password Recovery</li>
-            <li>Private Key Restoration</li>
-            <li>Cold Storage Security</li>
-            <li>Blockchain Forensics</li>
-            <li>Customized Recovery Solutions</li>
-            <!-- Add more services as needed -->
-        </ul>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>© 2024 Crypto Asset Recovery. All rights reserved.</p>
-        <p>Contact us: +357 94512 215</p>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
     </footer>
-
 </body>
-    </html>
+</html>
