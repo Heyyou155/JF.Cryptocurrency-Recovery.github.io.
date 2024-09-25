@@ -10,16 +10,25 @@
 <body>
 
     <header>
-        <img src="logo.png" alt="Crypto Asset Recovery Logo"> <!-- Your logo -->
-        <nav>
-            <ul>
+    <nav>
+        <div class="nav-bar">
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- This is the 4-dash menu icon -->
+            <ul id="nav-links" class="hidden">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#join">Join</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
+
+<script>
+function toggleMenu() {
+    var links = document.getElementById("nav-links");
+    links.classList.toggle("hidden");
+}
+</script>
 
     <!-- Home Section -->
     <section id="home">
